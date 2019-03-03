@@ -1,0 +1,57 @@
+body {
+  font-family: "Helvetica",Arial,sans-serif;
+  background-color: #333;
+  color: #ddd;
+  width: 960px;
+  margin: 20px auto 0;
+  text-align: center;
+}
+
+#canvas-background {
+  width: 640px;
+  height: 480px;
+  margin: 0 auto;
+  position: relative;
+  border: 2px solid black;
+  background-image: url('img/background.png');
+  text-align: left;
+}
+
+canvas.screen-canvas {
+  position: absolute;
+  width: 640px;
+  height: 480px;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+label {
+  font-weight: bold;
+}
+
+#presentation {
+  width: 830px;
+  margin: 0 auto;
+  line-height: 1.75em;
+}
+
+#picture-text {
+  width: 830px;
+  font-size: 80%;
+  margin: 20px auto 0;
+}
+
+a {
+  color: #0af;
+}
+
+footer {
+  font-size: 90%;
+  margin: 30px;
+}
+
+#picture-text a,
+footer a {
+  color: #ddd;
+}
